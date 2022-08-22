@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Homemade+Apple&family=Raleway&display=swap');
+h1{
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 70px;
+    padding-left: 40px;
+    margin: auto;
+    text-align: center;
+}
+
+#icon{
+    height: 60px;
+    width: 60px;
+    margin: 720px auto 400px auto;
+}
+
