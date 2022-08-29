@@ -1,12 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Homemade+Apple&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap');
+
+
+
 h1{
-    font-family: 'Cedarville Cursive', cursive;
-    font-size: 140px;
+    font-size: 300px;
+    font-family: 'Qwitcher Grypen', cursive;
+    max-width: 400px;
 }
 
-#icon{
-    height: 60px;
-    width: 60px;
-    margin: 720px auto 400px auto;
+.img_pos1
+{
+    width: 135px;
+    height: 168px;
+    position: absolute;
 }
 
+p{
+    color: green;
+}
+
+.container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center
+
+}
+
+.container > div 
+{
+    flex-basis: 50%;
+}
+.img_col
+{
+    flex-basis: 30%;
+}
