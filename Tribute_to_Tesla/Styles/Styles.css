@@ -3,9 +3,31 @@
 
 
 h1{
-    font-size: 300px;
+    font-size: 130px;
     font-family: 'Qwitcher Grypen', cursive;
-    max-width: 400px;
+    max-width: 600px;
+    text-align: center;
+    margin-top: 5px;
+    color: aliceblue;
+    stroke: blanchedalmond;
+    stroke-width: 3px;
+}
+
+h3{
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(211, 102, 102);
+    text-align: left;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: white;
+}
+
+body {
+    background-image:url("https://getwallpapers.com/wallpaper/full/1/1/f/46953.jpg");
+    background-position: fixed;
 }
 
 .img_pos1
@@ -13,10 +35,6 @@ h1{
     width: 135px;
     height: 168px;
     position: absolute;
-}
-
-p{
-    color: green;
 }
 
 .container
@@ -35,3 +53,28 @@ p{
 {
     flex-basis: 30%;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
