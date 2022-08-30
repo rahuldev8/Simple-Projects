@@ -7,7 +7,7 @@ function AgeinDays() {
 
    var h1 = document.createElement("h1");
 
-   var textAnswer = document.createTextNode("You are" + ageindays + " days old....");
+   var textAnswer = document.createTextNode("You are " + ageindays + " days old....");
 
    h1.setAttribute("id", "ageindays");
 
