@@ -1,3 +1,21 @@
-h1{
-    color: red;
+.flex-box-container-1 {
+   border: 1px solid black;
+}
+
+.flex-box-container-1 {
+   display: flex;
+   padding: 10px;
+   border: 2px solid black;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+}
+
+.flex-box-container-1 div {
+   padding: 10px;
+   display: flex;
+   align-items: center;
+}
+
+h2 {
+   color: red;
 }
