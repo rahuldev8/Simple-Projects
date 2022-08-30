@@ -19,5 +19,7 @@
 h2 {
    text-align: center;
    text-decoration: dotted;
+   stroke: 2px;
+   stop-color: black;
    color: red;
 }
